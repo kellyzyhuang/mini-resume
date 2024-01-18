@@ -1,0 +1,41 @@
+.menu {
+  display: flex; 
+  flex-direction: column; 
+  width: 20vw; 
+  height: 100%; 
+  padding: 0; 
+  margin-right: 0; 
+  transform: translate(-730px); 
+  position: fixed; 
+  top: 0; 
+}
+
+.line {
+  height: 100%; 
+  border-left: 3px solid var(--blue); 
+  transform: translate(210px); 
+  position: absolute; 
+}
+
+.miffy {
+  display: flex; 
+  justify-content: center; 
+  padding: 10px; 
+  margin: 10px; 
+}
+
+.name {
+  margin: 0; 
+  padding: 2px; 
+}
+
+.role {
+  margin: 0; 
+  padding: 2px; 
+  font-style: italic; 
+}
+
+.menuitems {
+  margin-top: 40px; 
+}
+

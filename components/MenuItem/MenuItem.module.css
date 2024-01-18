@@ -1,0 +1,12 @@
+.menuItem {
+  margin: 0; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  width: 170px; 
+}
+
+.menuItem:hover {
+  background-color: var(--blue); 
+  color: var(--white); 
+  padding-left: 10px; 
+}

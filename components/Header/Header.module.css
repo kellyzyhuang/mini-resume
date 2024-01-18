@@ -1,0 +1,17 @@
+.header {
+  display: inline-flex; 
+}
+
+.dash {
+  display: flex; 
+  transform: translate(150px, -80px); 
+}
+
+.notif {
+  display: flex; 
+  transform: translate(1100px, -70px); 
+}
+
+.bell {
+  padding: 10px; 
+}

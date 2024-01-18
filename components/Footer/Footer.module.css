@@ -1,0 +1,5 @@
+.footer {
+  display: flex; 
+  justify-content: center; 
+  transform: translate(120px); 
+}
