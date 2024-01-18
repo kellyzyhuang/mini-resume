@@ -5,8 +5,9 @@
   width: 170px; 
 }
 
-.menuItem:hover {
+.menuItem:hover{
   background-color: var(--blue); 
   color: var(--white); 
   padding-left: 10px; 
 }
+

@@ -16,25 +16,23 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/Miffy.ico" />
       </Head>
-      <main className={`${styles.main}`}>
-        <div className={styles.sidenav}>
-          <SideNavigation/>
-        </div>
-        <div className={styles.headercard}>
-          <Header/>
-          <div className={styles.cardcontainer}>
-            <div className={styles.cardleft}>
-              <Card title="Experiences" description="Teaching at BCIT" borderColor="2px solid red"/>
-              <Card title="Projects" description="Website created with HTML and CSS" borderColor="2px solid yellow"/>
-              <Card title="Skills" description="Nextjs, HTML, CSS, JavaScript, Playwright, JEST" borderColor="2px solid blue"/>
+        <Header/>
+          <main className={`${styles.main}`}>
+            <div className={styles.sidenav}>
+              <SideNavigation/>
             </div>
-            <div className={styles.cardright}>
-              <Card title="Education" description="Digital Design and Development Diploma" borderColor="2px solid orange"/>
-              <Card title="Volunteering" description="Wildlife Rescue Association by feeding animals and cleaning pens" borderColor="2px solid green"/>
-              <Card title="Interests" description="I like biking" borderColor="2px solid violet"/>
+            <div className={styles.cardcontainer}>
+              <div className={styles.cardleft}>
+                <Card title="Experiences" description="Teaching at BCIT" borderColor="2px solid red"/>
+                <Card title="Projects" description="Website created with HTML and CSS" borderColor="2px solid yellow"/>
+                <Card title="Skills" description="Nextjs, HTML, CSS, JavaScript, Playwright, JEST" borderColor="2px solid blue"/>
+              </div>
+              <div className={styles.cardright}>
+                <Card title="Education" description="Digital Design and Development Diploma" borderColor="2px solid orange"/>
+                <Card title="Volunteering" description="Wildlife Rescue Association by feeding animals and cleaning pens" borderColor="2px solid green"/>
+                <Card title="Interests" description="I like biking" borderColor="2px solid violet"/>
+              </div>
             </div>
-          </div>
-        </div>
       </main>
       <Footer/>
     </>

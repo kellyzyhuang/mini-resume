@@ -9,7 +9,7 @@ export default function MenuItem({
 }) {
 
   return(
-    <div>
+    <div className={styles.menuItemContainer}>
       <p className={styles.menuItem} style={{backgroundColor: bgColor, color: textColor, paddingLeft: tabLeft}}>{title}</p>
     </div>
   )
